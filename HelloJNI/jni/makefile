@@ -16,7 +16,7 @@ HelloJNI.o : HelloJNI.c com_jni_qt_HelloJNI.h
         
 
 # $* matches the target filename without the extension
-HelloJNI.h : ../bin/com/jni/qt/HelloJNI.class
+HelloJNI.h : ../src/com/jni/qt/HelloJNI.class
 	javah -classpath $(CLASS_PATH) com.jni.qt.HelloJNI
 	
 clean :
