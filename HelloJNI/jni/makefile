@@ -19,5 +19,5 @@ HelloJNI.o : HelloJNI.c com_jni_qt_HelloJNI.h
 HelloJNI.h : ../src/com/jni/qt/HelloJNI.class
 	javah -classpath $(CLASS_PATH) com.jni.qt.HelloJNI
 	
-clean :
-	rm com_jni_qt_HelloJNI.h HelloJNI.o libhello.so
+#clean :
+#	rm com_jni_qt_HelloJNI.h HelloJNI.o libhello.so

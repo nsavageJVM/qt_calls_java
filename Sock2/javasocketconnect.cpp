@@ -1,6 +1,7 @@
 #include "javasocketconnect.h"
 
-JavaSocketConnect::JavaSocketConnect(QObject *parent) : QObject(parent) {
+JavaSocketConnect::JavaSocketConnect(QObject *parent) : QObject(parent)
+{
 
 }
 

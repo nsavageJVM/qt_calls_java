@@ -1,0 +1,1 @@
+gradle run -DmainClass=com.qtcallsjava.server.JavaSocServer

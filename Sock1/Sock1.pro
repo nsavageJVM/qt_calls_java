@@ -4,19 +4,20 @@
 #
 #-------------------------------------------------
 
-QT       += core
+QT       += core gui
 QT       += network
-QT       -= gui
+QT       += widgets
 
 TARGET = Sock1
-CONFIG   += console
-CONFIG   -= app_bundle
 
 TEMPLATE = app
 
 
 SOURCES += main.cpp \
-    javasocketconnect.cpp
+    javasocketconnect.cpp \
+    basepanel.cpp
 
 HEADERS += \
-    javasocketconnect.h
+    javasocketconnect.h \
+    basepanel.h
+
